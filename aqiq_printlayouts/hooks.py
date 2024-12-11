@@ -227,3 +227,16 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Fixtures
+# --------
+fixtures = [
+    {
+        "doctype": "Print Format",
+        "filters": [
+            {
+                "module": "AQIQ Print Formats"
+            }
+        ]
+    }
+]
+
